@@ -17,9 +17,11 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
-          </a>{" "}
+          {/* This is where ffwpu logo is */}
+          <a class="navbar-brand page-scroll" href="#page-top">
+            <img src="/img/logo.jpg" alt="Home" />
+          </a>
+          
         </div>
 
         <div
@@ -28,8 +30,8 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-                Features
+              <a href="#aboutus" className="page-scroll">
+                About us
               </a>
             </li>
             <li>

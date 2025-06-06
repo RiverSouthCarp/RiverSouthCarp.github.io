@@ -75,8 +75,16 @@ hr {
   padding: 15px;
   transition: all 0.8s;
 }
+
+#menu a.navbar-brand img {
+  height: 20px; /* fixed height to prevent navbar from growing */
+  width: auto;
+  transform: scale(4); /* visually scale up the image */
+  transform-origin: center;
+}
+
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #2C3E50;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -90,7 +98,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #fee389;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -140,6 +148,45 @@ hr {
 .navbar-default .navbar-toggle:hover > .icon-bar {
   background-color: #608dfd;
 }
+
+.about-rectangle {
+  width: 100vw;
+  height: 200px;
+  background-color: #2C3E50;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.about-rectangle h2 {
+  color: fee389;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 70px;
+}
+
+.aboutus-text {
+  max-width: 600px;
+  margin: 60px auto 40px;
+  color: #555;
+  font-size: 32px;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+
 .section-title {
   margin-bottom: 70px;
 }
@@ -220,11 +267,11 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #fee389;
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .intro h1 span {
@@ -232,7 +279,7 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: #fee389;
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -240,15 +287,15 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 450px;
   padding-bottom: 200px;
   text-align: center;
 }
 /* Features Section */
-#features {
+#aboutus {
   background: #f6f6f6;
 }
-#features i.fa {
+#aboutus i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
