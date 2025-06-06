@@ -18,53 +18,26 @@
       "Lorem ipsum dolor"
     ]
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
+ "Gallery": [
+  {
+    "title": "2 Day Divine Principle Workshop",
+    "description": "Retreat into the outdoors for a weekend of faith, fun and friendship.",
+    "image": "/img/events/workshopPoster.jpg",
+    "signupLink": "https://example.com/signup/techtalk"
+  },
+  {
+    "title": "Startup Pitch Night",
+    "description": "Watch startups pitch their ideas to investors live.",
+    "image": "img/events/pitch-night.jpg",
+    "signupLink": "https://example.com/signup/pitch"
+  },
+  {
+    "title": "Hackathon Weekend",
+    "description": "Team up and build cool things over a weekend.",
+    "image": "img/events/hackathon.jpg",
+    "signupLink": "https://example.com/signup/hackathon"
+  }
+],
   "Services": [
     {
       "icon": "fa fa-wordpress",
@@ -165,17 +138,17 @@
       {
         "smallimage": "/img/icons/hands.jpg",
         "title": "Faith Development",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "text": "We seek to nurture the spiritual growth of exisiting and new members of our spiritual community."
       },
       {
         "smallimage": "/img/icons/horn.jpg",
         "title": "Outreach",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "text": "We seek to spread the truth and connect as many people to God as possible."
       },
       {
         "smallimage": "/img/icons/coms.jpg",
         "title": "Community Work",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "text": "We seek to practice the principled way of life through serving our greater commnities."
       }
   ]}
 }
